@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MarkDownTest-MarkDownTestUITests/Pods-MarkDownTest-MarkDownTestUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MarkdownKit/MarkdownKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyMarkdown/SwiftyMarkdown.framework

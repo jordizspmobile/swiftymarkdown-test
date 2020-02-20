@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841C64A99214B739DE48558A /* Pods_MarkDownTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB6032859C2043BC517024 /* Pods_MarkDownTest.framework */; };
+		8DA73F7B23FD80EF00E15991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA73F7A23FD80EF00E15991 /* AppDelegate.swift */; };
+		8DA73F7D23FD80EF00E15991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA73F7C23FD80EF00E15991 /* SceneDelegate.swift */; };
+		8DA73F7F23FD80EF00E15991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA73F7E23FD80EF00E15991 /* ViewController.swift */; };
+		8DA73F8223FD80EF00E15991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA73F8023FD80EF00E15991 /* Main.storyboard */; };
+		8DA73F8423FD80F300E15991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA73F8323FD80F300E15991 /* Assets.xcassets */; };
+		8DA73F8723FD80F300E15991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA73F8523FD80F300E15991 /* LaunchScreen.storyboard */; };
+		8DA73F9223FD80F300E15991 /* MarkDownTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA73F9123FD80F300E15991 /* MarkDownTestUITests.swift */; };
+		A83B8E8287CC22A535302DB3 /* Pods_MarkDownTest_MarkDownTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC6F53D891670312EB96A3D /* Pods_MarkDownTest_MarkDownTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA73F8E23FD80F300E15991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA73F6F23FD80EF00E15991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA73F7623FD80EF00E15991;
+			remoteInfo = MarkDownTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EAC0A6DD2CBBF38AC2D593 /* Pods-MarkDownTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkDownTest.debug.xcconfig"; path = "Target Support Files/Pods-MarkDownTest/Pods-MarkDownTest.debug.xcconfig"; sourceTree = "<group>"; };
+		47872579ED87ABAD5F9239FF /* Pods-MarkDownTest-MarkDownTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkDownTest-MarkDownTestUITests.release.xcconfig"; path = "Target Support Files/Pods-MarkDownTest-MarkDownTestUITests/Pods-MarkDownTest-MarkDownTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83BB6032859C2043BC517024 /* Pods_MarkDownTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkDownTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA73F7723FD80EF00E15991 /* MarkDownTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkDownTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA73F7A23FD80EF00E15991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA73F7C23FD80EF00E15991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DA73F7E23FD80EF00E15991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DA73F8123FD80EF00E15991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA73F8323FD80F300E15991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA73F8623FD80F300E15991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA73F8823FD80F300E15991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA73F8D23FD80F300E15991 /* MarkDownTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkDownTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA73F9123FD80F300E15991 /* MarkDownTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownTestUITests.swift; sourceTree = "<group>"; };
+		8DA73F9323FD80F300E15991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7BA355ECEA2D3863605E44 /* Pods-MarkDownTest-MarkDownTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkDownTest-MarkDownTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarkDownTest-MarkDownTestUITests/Pods-MarkDownTest-MarkDownTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A892DBD422BD55A82C002B /* Pods-MarkDownTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkDownTest.release.xcconfig"; path = "Target Support Files/Pods-MarkDownTest/Pods-MarkDownTest.release.xcconfig"; sourceTree = "<group>"; };
+		FFC6F53D891670312EB96A3D /* Pods_MarkDownTest_MarkDownTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkDownTest_MarkDownTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA73F7423FD80EF00E15991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C64A99214B739DE48558A /* Pods_MarkDownTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA73F8A23FD80F300E15991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83B8E8287CC22A535302DB3 /* Pods_MarkDownTest_MarkDownTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D8FB5C7D65C9A8872B63CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17EAC0A6DD2CBBF38AC2D593 /* Pods-MarkDownTest.debug.xcconfig */,
+				E0A892DBD422BD55A82C002B /* Pods-MarkDownTest.release.xcconfig */,
+				AA7BA355ECEA2D3863605E44 /* Pods-MarkDownTest-MarkDownTestUITests.debug.xcconfig */,
+				47872579ED87ABAD5F9239FF /* Pods-MarkDownTest-MarkDownTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		677EA09CCDC8FDDBA5BEF16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83BB6032859C2043BC517024 /* Pods_MarkDownTest.framework */,
+				FFC6F53D891670312EB96A3D /* Pods_MarkDownTest_MarkDownTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA73F6E23FD80EF00E15991 = {
+			isa = PBXGroup;
+			children = (
+				8DA73F7923FD80EF00E15991 /* MarkDownTest */,
+				8DA73F9023FD80F300E15991 /* MarkDownTestUITests */,
+				8DA73F7823FD80EF00E15991 /* Products */,
+				33D8FB5C7D65C9A8872B63CD /* Pods */,
+				677EA09CCDC8FDDBA5BEF16B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA73F7823FD80EF00E15991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA73F7723FD80EF00E15991 /* MarkDownTest.app */,
+				8DA73F8D23FD80F300E15991 /* MarkDownTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA73F7923FD80EF00E15991 /* MarkDownTest */ = {
+			isa = PBXGroup;
+			children = (
+				8DA73F7A23FD80EF00E15991 /* AppDelegate.swift */,
+				8DA73F7C23FD80EF00E15991 /* SceneDelegate.swift */,
+				8DA73F7E23FD80EF00E15991 /* ViewController.swift */,
+				8DA73F8023FD80EF00E15991 /* Main.storyboard */,
+				8DA73F8323FD80F300E15991 /* Assets.xcassets */,
+				8DA73F8523FD80F300E15991 /* LaunchScreen.storyboard */,
+				8DA73F8823FD80F300E15991 /* Info.plist */,
+			);
+			path = MarkDownTest;
+			sourceTree = "<group>";
+		};
+		8DA73F9023FD80F300E15991 /* MarkDownTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA73F9123FD80F300E15991 /* MarkDownTestUITests.swift */,
+				8DA73F9323FD80F300E15991 /* Info.plist */,
+			);
+			path = MarkDownTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA73F7623FD80EF00E15991 /* MarkDownTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA73F9623FD80F300E15991 /* Build configuration list for PBXNativeTarget "MarkDownTest" */;
+			buildPhases = (
+				DA458C069F1BA427358BCFC1 /* [CP] Check Pods Manifest.lock */,
+				8DA73F7323FD80EF00E15991 /* Sources */,
+				8DA73F7423FD80EF00E15991 /* Frameworks */,
+				8DA73F7523FD80EF00E15991 /* Resources */,
+				81CB6FAB92BDD86C1664D028 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkDownTest;
+			productName = MarkDownTest;
+			productReference = 8DA73F7723FD80EF00E15991 /* MarkDownTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA73F8C23FD80F300E15991 /* MarkDownTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA73F9923FD80F300E15991 /* Build configuration list for PBXNativeTarget "MarkDownTestUITests" */;
+			buildPhases = (
+				49BD62489E6E9B977409776D /* [CP] Check Pods Manifest.lock */,
+				8DA73F8923FD80F300E15991 /* Sources */,
+				8DA73F8A23FD80F300E15991 /* Frameworks */,
+				8DA73F8B23FD80F300E15991 /* Resources */,
+				556EFCEF1843E39EBA1AAE93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA73F8F23FD80F300E15991 /* PBXTargetDependency */,
+			);
+			name = MarkDownTestUITests;
+			productName = MarkDownTestUITests;
+			productReference = 8DA73F8D23FD80F300E15991 /* MarkDownTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA73F6F23FD80EF00E15991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Domestika;
+				TargetAttributes = {
+					8DA73F7623FD80EF00E15991 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8DA73F8C23FD80F300E15991 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8DA73F7623FD80EF00E15991;
+					};
+				};
+			};
+			buildConfigurationList = 8DA73F7223FD80EF00E15991 /* Build configuration list for PBXProject "MarkDownTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA73F6E23FD80EF00E15991;
+			productRefGroup = 8DA73F7823FD80EF00E15991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA73F7623FD80EF00E15991 /* MarkDownTest */,
+				8DA73F8C23FD80F300E15991 /* MarkDownTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA73F7523FD80EF00E15991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA73F8723FD80F300E15991 /* LaunchScreen.storyboard in Resources */,
+				8DA73F8423FD80F300E15991 /* Assets.xcassets in Resources */,
+				8DA73F8223FD80EF00E15991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA73F8B23FD80F300E15991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49BD62489E6E9B977409776D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkDownTest-MarkDownTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		556EFCEF1843E39EBA1AAE93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkDownTest-MarkDownTestUITests/Pods-MarkDownTest-MarkDownTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkDownTest-MarkDownTestUITests/Pods-MarkDownTest-MarkDownTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarkDownTest-MarkDownTestUITests/Pods-MarkDownTest-MarkDownTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81CB6FAB92BDD86C1664D028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkDownTest/Pods-MarkDownTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkDownTest/Pods-MarkDownTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarkDownTest/Pods-MarkDownTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA458C069F1BA427358BCFC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkDownTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA73F7323FD80EF00E15991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA73F7F23FD80EF00E15991 /* ViewController.swift in Sources */,
+				8DA73F7B23FD80EF00E15991 /* AppDelegate.swift in Sources */,
+				8DA73F7D23FD80EF00E15991 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA73F8923FD80F300E15991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA73F9223FD80F300E15991 /* MarkDownTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA73F8F23FD80F300E15991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA73F7623FD80EF00E15991 /* MarkDownTest */;
+			targetProxy = 8DA73F8E23FD80F300E15991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA73F8023FD80EF00E15991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA73F8123FD80EF00E15991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA73F8523FD80F300E15991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA73F8623FD80F300E15991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA73F9423FD80F300E15991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA73F9523FD80F300E15991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA73F9723FD80F300E15991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EAC0A6DD2CBBF38AC2D593 /* Pods-MarkDownTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkDownTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.domestika.MarkDownTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA73F9823FD80F300E15991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A892DBD422BD55A82C002B /* Pods-MarkDownTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkDownTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.domestika.MarkDownTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DA73F9A23FD80F300E15991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7BA355ECEA2D3863605E44 /* Pods-MarkDownTest-MarkDownTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkDownTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.domestika.MarkDownTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkDownTest;
+			};
+			name = Debug;
+		};
+		8DA73F9B23FD80F300E15991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47872579ED87ABAD5F9239FF /* Pods-MarkDownTest-MarkDownTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkDownTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.domestika.MarkDownTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkDownTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA73F7223FD80EF00E15991 /* Build configuration list for PBXProject "MarkDownTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA73F9423FD80F300E15991 /* Debug */,
+				8DA73F9523FD80F300E15991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA73F9623FD80F300E15991 /* Build configuration list for PBXNativeTarget "MarkDownTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA73F9723FD80F300E15991 /* Debug */,
+				8DA73F9823FD80F300E15991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA73F9923FD80F300E15991 /* Build configuration list for PBXNativeTarget "MarkDownTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA73F9A23FD80F300E15991 /* Debug */,
+				8DA73F9B23FD80F300E15991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA73F6F23FD80EF00E15991 /* Project object */;
+}

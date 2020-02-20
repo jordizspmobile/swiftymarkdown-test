@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.0.0)
+  - MarkdownKit (1.6)
+  - SwiftyMarkdown (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MarkdownKit
+  - SwiftyMarkdown
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MarkdownKit
+    - SwiftyMarkdown
+
+SPEC CHECKSUMS:
+  Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
+  MarkdownKit: 6aa4aee263c7efae3de570cded0767f85c38fc78
+  SwiftyMarkdown: 033abc9dad9a37903f81aec5188cade436f40520
+
+PODFILE CHECKSUM: 025cf127075734f944f7a4e7f6d0bfad581df75b
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_MarkDownTest_MarkDownTestUITests {
+  umbrella header "Pods-MarkDownTest-MarkDownTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
